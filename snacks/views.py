@@ -6,5 +6,5 @@ class SnackListView(ListView):
     model = Snack
 
 class SnackDetailView(DetailView):
-    template_name = 'snack_details.html'
+    template_name = 'snack_detail.html'
     model = Snack
